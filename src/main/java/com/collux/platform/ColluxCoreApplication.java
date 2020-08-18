@@ -1,4 +1,4 @@
-package com.collux.platform.core;
+package com.collux.platform;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,6 +8,7 @@ public class ColluxCoreApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(ColluxCoreApplication.class, args);
+
     }
 
 }

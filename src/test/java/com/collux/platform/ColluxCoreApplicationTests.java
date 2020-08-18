@@ -1,4 +1,4 @@
-package com.collux.platform.core;
+package com.collux.platform;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
