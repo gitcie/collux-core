@@ -1,6 +1,6 @@
 package com.collux.platform.swagger
 
-import eco.power.common.project.Project
+import com.collux.platform.project.Project
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.context.properties.ConfigurationProperties
 import org.springframework.boot.context.properties.NestedConfigurationProperty
