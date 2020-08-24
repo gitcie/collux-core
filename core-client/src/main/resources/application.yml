@@ -1,0 +1,11 @@
+project:
+  version: 0.0.1-SNAPSHOT
+
+spring:
+  application:
+    name: Collux微服务平台核心库
+
+server:
+  port: 5656
+  servlet:
+    context-path: /collux

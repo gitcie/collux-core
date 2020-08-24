@@ -5,7 +5,7 @@
  * 复制、修改或发布本软件.
  *****************************************************************************/
 
-package com.collux.platform.controller
+package com.collux.platform.client.controller
 
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestMapping
@@ -16,16 +16,15 @@ import org.springframework.web.bind.annotation.RestController
  * class summary
  * <p>
  * class detail description
- * @author Siyi Lu
- * @since 2020/8/19
+ * @author zyx
+ * @since 2020/8/24
  */
 @RestController
 @RequestMapping("/test")
 class TestController {
 
-    @GetMapping("hello")
-    fun  hello(@RequestParam name: String): String {
-        return "Hello ${name}"
+    @GetMapping
+    fun hello(@RequestParam name: String): String {
+        return "Hello $name"
     }
-
 }

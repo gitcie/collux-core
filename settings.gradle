@@ -1,4 +1,4 @@
 rootProject.name = 'collux-core'
 
-include 'core'
-include 'core-client'
+include ':core'
+include ':core-client'
