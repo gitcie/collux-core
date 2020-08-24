@@ -1,0 +1,16 @@
+{
+    "groups": [
+        {
+            "name": "project",
+            "type": "com.collux.platform.project.ProjectProperties",
+            "sourceType": "com.collux.platform.project.ProjectProperties"
+        }
+    ],
+    "properties": [
+        {
+            "name": "project.version",
+            "type": "java.lang.String",
+            "description": "Description for project.version."
+        }
+    ]
+}
