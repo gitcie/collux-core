@@ -1,6 +1,5 @@
 package com.collux.platform;
 
-import com.collux.platform.project.ProjectProperties;
 import com.collux.platform.swagger.SwaggerProperties;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.ComponentScan;
@@ -12,7 +11,6 @@ import org.springframework.context.annotation.Configuration;
  * @since 2020/8/22
  */
 @EnableConfigurationProperties({
-        ProjectProperties.class,
         SwaggerProperties.class
 })
 @Configuration

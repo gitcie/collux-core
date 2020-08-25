@@ -53,7 +53,7 @@ open class SwaggerConfig {
     @Bean
     open fun apiInfo(): ApiInfo? {
         return ApiInfoBuilder()
-                .title(swaggerProperties.api.title)
+                .title(swaggerProperties.title())
                 .version(swaggerProperties.version())
                 .termsOfServiceUrl(swaggerProperties.serverUrl())
                 .description(swaggerProperties.api.description)
