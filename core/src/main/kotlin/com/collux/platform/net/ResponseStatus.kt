@@ -9,6 +9,4 @@ enum class ResponseStatus(val code: Int, val message: String){
 
     SUCCESS(0, ""),
 
-    BAD_REQUEST(400, "bad request")
-
 }
