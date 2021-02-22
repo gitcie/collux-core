@@ -7,29 +7,14 @@
 
 package com.collux.platform.client.controller
 
-import org.springframework.web.bind.annotation.GetMapping
-import org.springframework.web.bind.annotation.RequestMapping
-import org.springframework.web.bind.annotation.RequestParam
-import org.springframework.web.bind.annotation.RestController
-
 /**
  * class summary
  * <p>
  * class detail description
  * @author zyx
- * @since 2020/8/24
+ * @since 2020/10/27
  */
-@RestController
-@RequestMapping("/test")
-class TestController {
-
-    @GetMapping
-    fun hello(@RequestParam name: String): String {
-        return "Hello $name"
-    }
-
-    @GetMapping("/user")
-    fun getUser(): User {
-        return User("lusiyi", "陆思毅")
-    }
-}
+data class User(
+        val id: String,
+        val name: String
+)
